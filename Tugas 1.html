@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Section Menu */
+        .menu {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .menu a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+        /* Section 2: Judul Kiri dan Gambar Kanan */
+        .section-2 {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .section-2 .judul {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .section-2 .gambar {
+            flex: 1;
+            text-align: right;
+        }
+        .section-2 img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        /* Section 3: Biodata dengan 6 Box */
+        .section-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .box h3 {
+            margin-top: 0;
+        }
+        /* Section 4: Portofolio dengan Tabel */
+        .section-4 {
+            margin-top: 40px;
+        }
+        .section-4 table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-4 th, .section-4 td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .section-4 th {
+            background-color: #333;
+            color: #fff;
+        }
+        .section-4 tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section Menu -->
+    <div class="menu">
+        <a href="#home"></a>
+        <a href="#biodata"></a>
+        <a href="#portofolio"></a>
+        <a href="#kontak"></a>
+    </div>
+
+    <div class="container">
+        <!-- Section 2: Judul Kiri dan Gambar Kanan -->
+        <section class="section-2">
+            <div class="judul">
+                <h1>Selamat Datang di Biodata Saya</h1>
+                <p>Halo! Saya Joshua Darril Antoro, seorang pelajar yang sedang mempelajari coding menggunakan AI.</p>
+            </div>
+            <div class="gambar">
+                <img src="images/my image.jpg" width="200px">
+            </div>
+        </section>
+
+        <!-- Section 3: Biodata dengan 6 Box -->
+        <section class="section-3">
+            <div class="box">
+                <h3>Nama Lengkap</h3>
+                <p>Joshua Darril Antoro </p>
+            </div>
+            <div class="box">
+                <h3>Tempat, Tanggal Lahir</h3>
+                <p>Sintang, 2 Mei 2006</p>
+            </div>
+            <div class="box">
+                <h3>Jenis Kelamin</h3>
+                <p>Laki-laki</p>
+            </div>
+            <div class="box">
+                <h3>Alamat</h3>
+                <p>Dusun Beringin Jaya Nanga Jetak</p>
+            </div>
+            <div class="box">
+                <h3>Email</h3>
+                <p>darrilantorojoshua@gmail.com</p>
+            </div>
+            <div class="box">
+                <h3>No. Telepon</h3>
+                <p>0857-5465-0067</p>
+            </div>
+        </section>
+
+        <!-- Section 4: Portofolio dengan Tabel -->
+        <section class="section-4">
+            <h2>Portofolio</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Proyek</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>
